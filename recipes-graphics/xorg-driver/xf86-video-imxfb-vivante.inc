@@ -6,7 +6,7 @@ require recipes-graphics/xorg-driver/xorg-driver-video.inc
 
 PE = "3"
 
-inherit autotools-brokensep update-rc.d pkgconfig
+inherit autotools update-rc.d pkgconfig
 
 DEPENDS += "virtual/xserver virtual/libx11 virtual/libgal-x11 imx-gpu-viv pixman"
 

@@ -18,7 +18,7 @@ SRC_URI = "git://github.com/Freescale/gstreamer-imx.git;branch=${SRCBRANCH} \
 
 S = "${WORKDIR}/git"
 
-inherit waf
+#inherit waf
 
 do_compile[depends] += "virtual/kernel:do_shared_workdir"
 

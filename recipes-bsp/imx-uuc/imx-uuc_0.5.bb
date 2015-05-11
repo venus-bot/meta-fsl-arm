@@ -11,6 +11,6 @@ SRC_URI = "${FSL_MIRROR}/${PN}-${PV}.tar.gz"
 SRC_URI[md5sum] = "4a82f106f85199c91a058ee54c127477"
 SRC_URI[sha256sum] = "ec5894ab7967797c8500b4988d0aba6c6f78ef22b4a190f9db12be33df08faaf"
 
-inherit autotools-brokensep
+inherit autotools
 
 FILES_${PN} += "/linuxrc"
